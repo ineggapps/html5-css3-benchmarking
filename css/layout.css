@@ -47,7 +47,7 @@ button:focus {
   z-index: -1;
 }
 .background_wrapper {
-  background: url("https://github.com/ineggapps/java-2020-web-project/blob/master/WebContent/hw_benchmark/images/cat-4977436_1920.jpg?raw=true")
+  background: url("https://github.com/ineggapps/html5-css3-benchmarking/blob/master/images/cat-4977436_1920.jpg?raw=true")
     center 0%;
   background-size: cover;
 }
