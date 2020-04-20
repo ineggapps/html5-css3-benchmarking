@@ -63,21 +63,36 @@ header ul#gnb {
 
 header ul#gnb li {
   float: left;
+  height: 60px;
+}
+
+header ul#gnb li:hover .gnb_sub_inner {
+  visibility: visible;
 }
 
 header ul#gnb li:not(:last-child) {
   margin-right: 50px;
 }
 
+.gnb_sub_inner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 1000em;
+  height: 50px;
+  border-bottom: 1px solid #dddddd;
+  background-color: white;
+  left: 0;
+  top: 101px;
+  transform: translateX(-466.23rem);
+  /* visibility: hidden; */
+}
+
 .gnb_sub {
+  width: 1080px;
+  margin: 18px auto 0;
   list-style: none;
   position: absolute;
-  background-color: tomato;
-  width: 100%;
-  left: 0;
-  height: 50px;
-  top: 100px;
-  /* visibility: hidden; */
 }
 
 /*container */
