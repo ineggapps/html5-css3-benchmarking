@@ -107,6 +107,15 @@ header ul#gnb li:not(:last-child) {
   color: #333;
 }
 
+.gnb_sub > li {
+  font-weight: normal;
+  height: 31px !important;
+}
+
+.gnb_sub li:hover {
+  border-bottom: 2px solid #fa2828;
+}
+
 /*content */
 
 #container {
