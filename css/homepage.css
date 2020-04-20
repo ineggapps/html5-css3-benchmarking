@@ -4,6 +4,7 @@
 html,
 body {
   width: 100%;
+  min-width: 1080px;
   min-height: 100%;
   height: 100%;
   /* overflow-x: hidden; 이걸 입력하면 스크롤바가 가려진다.*/
@@ -52,10 +53,15 @@ header {
 header h1#logo {
   float: left;
   margin-top: 23px; /*로고의 크기에 따라 가변적*/
+  margin-left: 20px;
 }
 
 header h1#logo img {
   width: 48px;
+}
+
+div.right_area {
+  margin-right: 20px;
 }
 
 header ul#gnb,
