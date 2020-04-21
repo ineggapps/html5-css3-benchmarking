@@ -8,5 +8,6 @@
 
 ## 2. 3단 홈페이지 레이아웃 벤치마킹
 
-- [ ] [NHN](https://www.nhn.com/ko/ir/financialStatements.nhn)사 홈페이지 벤치마킹 예정
+- [x] [NHN](https://www.nhn.com/ko/ir/financialStatements.nhn)사 홈페이지 벤치마킹 예정
 - [ ] 혹은 [KAKAO](https://www.kakaocorp.com/kakao/introduce/vision)사 홈페이지 벤치마킹 예정
+- [ ] [KAKAO 인재영입](https://careers.kakao.com/index) 홈페이지도 근사하다!
