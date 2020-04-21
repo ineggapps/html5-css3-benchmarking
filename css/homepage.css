@@ -77,12 +77,12 @@ header ul#gnb {
   font-weight: 600;
 }
 
-header ul#gnb li {
+header ul#gnb > li {
   float: left;
   height: 60px;
 }
 
-header ul#gnb li a {
+header ul#gnb > li a {
   text-transform: uppercase;
 }
 
@@ -131,7 +131,7 @@ header ul#gnb li.boundary:after {
 
 .gnb_sub > li {
   font-weight: normal;
-  height: 31px !important;
+  height: 34px !important;
 }
 .gnb_sub > li:not(:last-child) {
   margin-right: 35px;
@@ -172,6 +172,8 @@ header ul#gnb li.boundary:after {
   height: 500px;
   background: url("../images/banner01.jpg") no-repeat center center;
   background-size: cover;
+  transition: all ease-in-out 1s;
+  background-attachment: fixed;
 }
 
 /*footer*/
