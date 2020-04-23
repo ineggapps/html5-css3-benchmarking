@@ -2,6 +2,8 @@
 
 ## 1. 로그인 페이지 벤치마킹
 
+![반응형 로그인 화면](https://github.com/ineggapps/html5-css3-benchmarking/blob/master/images/preview_login.gif?raw=true)
+
 - [x] [카카오스토리](https://story.kakao.com/) 페이지를 벤치마킹하여 작성하였습니다.
 - [x] 사용된 이미지 리소스는 Pixabay의 Free for commercial use 라이선스를 이용하여 작성하였습니다.
 - [x] 반응형 (with media query) 웹페이지로 작성되었습니다.
